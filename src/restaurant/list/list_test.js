@@ -58,5 +58,5 @@ QUnit.asyncTest('setting state and city loads a list of its restaurants', functi
   vm.attr('restaurants').then(restaurants => {
     QUnit.deepEqual(restaurants.attr(), expectedRestaurants);
     QUnit.start();
-  });
+  }, function(){debugger;});
 });

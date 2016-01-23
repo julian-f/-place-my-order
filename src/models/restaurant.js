@@ -12,7 +12,7 @@ Restaurant.List = can.List.extend({
 }, {});
 
 export const restaurantConnection = superMap({
-  url: '/restaurant',
+  url: '/api/restaurants',
   idProp: 'id',
   Map: Restaurant,
   List: Restaurant.List,
